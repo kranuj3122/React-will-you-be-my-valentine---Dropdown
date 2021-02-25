@@ -1,5 +1,7 @@
+// import React, { useState, useReducer } from "react";
+import { parseSync } from "@babel/core";
 import React, { useState, useReducer } from "react";
-
+import "./../styles/App.css";
 const states = [
   {
     name: "Madhya Pradesh",
@@ -301,7 +303,7 @@ export default App;
 
 // import { parseSync } from "@babel/core";
 // import React, { useState, useReducer } from "react";
-// import "../styles/App.css";
+// import "./../styles/App.css";
 
 // const states = [
 //   {
