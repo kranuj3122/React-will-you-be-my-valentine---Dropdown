@@ -49,5 +49,13 @@
     "webpack": "^4.44.2",
     "webpack-dev-server": "^3.11.0",
     "xml-js": "^1.6.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kranuj3122/React-will-you-be-my-valentine---Dropdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kranuj3122/React-will-you-be-my-valentine---Dropdown/issues"
+  },
+  "homepage": "https://github.com/kranuj3122/React-will-you-be-my-valentine---Dropdown#readme"
 }
