@@ -349,7 +349,7 @@ function App() {
           )}
         </select>
       </div>
-      <div>
+      <div id="data">
         <div style={divStyles}>
           <div id="state-name">
             <b>{states[selectedState].name}</b>
