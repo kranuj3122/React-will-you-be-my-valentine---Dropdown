@@ -274,7 +274,7 @@ const selectStyle = {
   width: "100%",
   height: "4rem",
   padding: "10px",
-  marginTop: "20px",
+  marginBottom: "20px",
 };
 const divStyles = {
   margin: "5px",
@@ -287,12 +287,12 @@ function App() {
   let [selectedLandmark, setSelectedLandmark] = useState(0);
   const handleStateChange = (e) => {
     setSelectedState(e.target.value);
-    setSelectedCity(0);
-    setSelectedLandmark(0);
+    // setSelectedCity(0);
+    // setSelectedLandmark(0);
   };
   const handleCityChange = (e) => {
     setSelectedCity(e.target.value);
-    setSelectedLandmark(0);
+    // setSelectedLandmark(0);
   };
   const handleLandmarkChange = (e) => {
     setSelectedLandmark(e.target.value);
@@ -301,6 +301,7 @@ function App() {
   return (
     <div id="main" style={styles}>
       <div style={divStyles}>
+        <span>States :</span>
         <select
           style={selectStyle}
           id="state"
@@ -315,6 +316,7 @@ function App() {
             );
           })}
         </select>
+        <span>Cities :</span>
         <select
           style={selectStyle}
           id="city"
@@ -329,6 +331,7 @@ function App() {
             );
           })}
         </select>
+        <span>Towns :</span>
         <select
           style={selectStyle}
           id="landmark"
