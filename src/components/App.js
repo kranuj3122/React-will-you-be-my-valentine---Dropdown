@@ -1,3 +1,4 @@
+import { parseSync } from "@babel/core";
 import React, { useState, useReducer } from "react";
 import "./../styles/App.css";
 
